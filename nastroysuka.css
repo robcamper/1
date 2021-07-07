@@ -1,0 +1,36 @@
+.big {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 42px;
+    line-height: 51px;
+
+}
+.window {
+
+    position: relative;
+    width: 1440px;
+    height: 900px;
+
+    background: linear-gradient(0deg, #8A2BE2, #FFFFFF);
+}
+.arrow{
+    position: absolute;
+    left: 16.67%;
+    right: 16.67%;
+    top: 16.67%;
+    bottom: 16.67%;
+}
+.description{
+    position: absolute;
+    height: 22px;
+    left: 440px;
+    top: 319px;
+}
+.description2{
+    position: static;
+    width: 143px;
+    height: 22px;
+    left: 0px;
+    top: 0px;
+}
