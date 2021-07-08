@@ -4,31 +4,40 @@
     height: 900px;
     background: linear-gradient(0deg, #8A2BE2, #FFFFFF);
 }
-
-.big {
-    font-family: Montserrat;
-    font-style: normal;
-    font-weight: 600;
-    font-size: 42px;
-    line-height: 51px;
-
-}
 .arrow {
     position: absolute;
-    height: 16px;
-    width: 16px;
-    left: 4px;
-    top: 4px;
+    left: 90px;
+    right: 16.67%;
+    top: 16.67%;
+    bottom: 16.67%;
+
+}
+.after_arrow {
+    position: absolute;
+    width: 59px;
+    height: 22px;
+    left: 96px;
+    top: 121px;
 
 
 }
-.description {
 
+.dog {
+    padding-left: 64px;
+    padding-top: 184px;
+}
+
+/*.description {
     font-family: Montserrat;
     position: absolute;
     height: 22px;
     left: 440px;
     top: 319px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+
 
 }
 .description2 {
@@ -39,16 +48,13 @@
     left: 0px;
     top: 0px;
 }
-.nazad {
-    position: absolute;
-    width: 59px;
-    height: 22px;
-    left: 96px;
-    top: 121px;
-
+*/
+.big {
     font-family: Montserrat;
     font-style: normal;
     font-weight: 600;
-    font-size: 18px;
-    line-height: 22px;
+    font-size: 42px;
+    line-height: 51px;
+    padding-left: 64px;
+    padding-top: 184px;
 }
