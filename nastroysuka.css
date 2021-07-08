@@ -6,7 +6,7 @@
 }
 .arrow {
     position: absolute;
-    left: 90px;
+    left: 64px;
     top: 124px;
     color: #666666;
 
@@ -17,30 +17,24 @@
     position: absolute;
     width: 59px;
     height: 22px;
-    left: 96px;
-    top: 121px;
+    left: 90px;
+    top: 97px;
     color: #666666;
 
 
 }
 
 .dog {
-    padding-left: 64px;
-    padding-top: 184px;
+    padding-left: 25px;
+
 }
 
-/*.description {
+.description {
     font-family: Montserrat;
-    position: absolute;
-    height: 22px;
-    left: 440px;
-    top: 319px;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    padding: 0px;
-
-
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
 }
 .description2 {
     font-family: Montserrat;
@@ -50,7 +44,7 @@
     left: 0px;
     top: 0px;
 }
-*/
+
 .big {
     font-family: Montserrat;
     font-style: normal;
@@ -60,7 +54,6 @@
     padding-left: 64px;
     padding-top: 184px;
 }
-
 
 
 
