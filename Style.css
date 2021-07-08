@@ -1,0 +1,8 @@
+@font-face {
+// название шрифта(чтобы не запутаться лучше указать название папки со шрифтом)
+font-family: "Motserrat";
+// адрес шрифта и тип
+src: url("R:\WORK OXOTNIK\Coding\1 step JS\robcamper repository-first\first\resources\Montserrat\Montserrat-Black.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
