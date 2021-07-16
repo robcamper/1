@@ -1,43 +1,50 @@
+body {
+    font-family: Montserrat, sans-serif;
+}
 .window {
     position: relative;
     width: 1440px;
     height: 900px;
-    background: linear-gradient(0deg, #8A2BE2, #FFFFFF);
+    background: linear-gradient(0deg, #FFFFFF, #FFFFFF);
 }
+
 .arrow {
     position: absolute;
     left: 64px;
     top: 124px;
     color: #666666;
-
+}
+span {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 22px;
+    white-space: nowrap;
 
 }
 .after_arrow {
-    font-family: Montserrat;
     position: absolute;
     width: 59px;
     height: 22px;
     left: 90px;
     top: 97px;
     color: #666666;
-
-
 }
 
 .dog {
     padding-left: 25px;
-
 }
 
 .description {
-    font-family: Montserrat;
     font-style: normal;
     font-weight: 600;
     font-size: 18px;
     line-height: 22px;
 }
+
 .description2 {
-    font-family: Montserrat;
+    font-style: normal;
+    flex: content;
     position: static;
     width: 143px;
     height: 22px;
@@ -45,8 +52,27 @@
     top: 0px;
 }
 
+.group1 {
+    font-style: normal;
+    position: absolute;
+    width: 94px;
+    height: 22px;
+    left: 440px;
+    top: 309px;
+    padding: 0px;
+    white-space: nowrap;
+}
+
+.group2 {
+    position: absolute;
+    width: 246px;
+    height: 22px;
+    left: 776px;
+    top: 319px;
+}
+
+
 .big {
-    font-family: Montserrat;
     font-style: normal;
     font-weight: 600;
     font-size: 42px;
@@ -56,6 +82,11 @@
 }
 
 
-
+@font-face {
+    font-family: "Montserrat";
+    src: url("~\resources\Montserrat\Montserrat-Black.ttf") format ("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
 
 
