@@ -15,6 +15,8 @@ body {
     color: #666666;
 }
 span {
+
+    height: 22px;
     font-style: normal;
     font-weight: normal;
     font-size: 18px;
@@ -23,11 +25,13 @@ span {
 
 }
 .after_arrow {
+    font-style: normal;
+    font-size: 18px;
     position: absolute;
     width: 59px;
-    height: 22px;
+    height: 20px;
     left: 90px;
-    top: 97px;
+    top: 105px;
     color: #666666;
 }
 
@@ -35,43 +39,49 @@ span {
     padding-left: 25px;
 }
 
-.description {
-    font-style: normal;
-    font-weight: 600;
-    font-size: 18px;
-    line-height: 22px;
-}
-
-.description2 {
-    font-style: normal;
-    flex: content;
-    position: static;
-    width: 143px;
-    height: 22px;
-    left: 0px;
-    top: 0px;
-}
-
 .group1 {
-    font-style: normal;
+    font-size: 13px;
     position: absolute;
     width: 94px;
-    height: 22px;
     left: 440px;
-    top: 309px;
-    padding: 0px;
+    top: 300px;
+    margin: 0px 8px;
     white-space: nowrap;
+    line-height: 22px;
+    padding: 0px;
+    font-weight: 600;
 }
-
 .group2 {
+    font-size: 13px;
     position: absolute;
     width: 246px;
-    height: 22px;
-    left: 776px;
-    top: 319px;
+    left: 750px;
+    top: 300px;
+    white-space: nowrap;
+    line-height: 22px;
+    margin: 0px 8px;
+    font-weight: 600;
 }
 
+.description3   {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
 
+    position: absolute;
+    left: 450px;
+    top: 245px;
+}
+
+.button{
+    margin: 30px 0px;
+    top: 310px;
+    width: 212px;
+    height: 50px;
+    background: #3CA6CD;
+    border-radius: 8px;
+}
 .big {
     font-style: normal;
     font-weight: 600;
@@ -80,11 +90,66 @@ span {
     padding-left: 64px;
     padding-top: 184px;
 }
+.cat {
+    position: absolute;
+    left: 1266.52px;
+    top: 670px;
+    background: url(image.png);
+
+}
+.cloud {
+    position: absolute;
+    width: 311px;
+    height: 156px;
+    left: 1065px;
+    top: 560px;
+}
+
+.cloudtext {
+    position: absolute;
+    width: 219px;
+    height: 80px;
+    left: 1095px;
+    top: 565px;
+
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 21px;
+    z-index: 100;
+}
+/*aside {
+    position: absolute;
+    width: 311px;
+    height: 156px;
+    left: 1065px;
+    top: 560px;
+}
+*/
+.close {
+    z-index: 100;
+    color: black;
+    position: absolute;
+    left: 1350px;
+    right: 20.9%;
+    top: 580px;
+    bottom: 20.9%;
+}
+
+
+
+
+
+
+
+
+
 
 
 @font-face {
     font-family: "Montserrat";
-    src: url("~\resources\Montserrat\Montserrat-Black.ttf") format ("truetype");
+    src: url("R:\WORK OXOTNIK\Coding\1 step JS\robcamper repository-first\first\resources\Montserrat\Montserrat-Black.ttf");
+    format: "truetype";
     font-style: normal;
     font-weight: normal;
 }
