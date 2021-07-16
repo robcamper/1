@@ -3,8 +3,6 @@ body {
 }
 .window {
     position: relative;
-    width: 1440px;
-    height: 900px;
     background: linear-gradient(0deg, #FFFFFF, #FFFFFF);
 }
 
@@ -118,22 +116,18 @@ span {
     line-height: 21px;
     z-index: 100;
 }
-/*aside {
-    position: absolute;
-    width: 311px;
-    height: 156px;
-    left: 1065px;
-    top: 560px;
+aside {
+    padding-left: 100%;
+    padding-bottom: 0%;
 }
-*/
+
 .close {
     z-index: 100;
     color: black;
     position: absolute;
     left: 1350px;
-    right: 20.9%;
     top: 580px;
-    bottom: 20.9%;
+
 }
 
 
